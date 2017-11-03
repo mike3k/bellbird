@@ -15,6 +15,7 @@
 		2735333F1FACCDB7006589A8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2735333E1FACCDB7006589A8 /* main.m */; };
 		273533491FACCDB8006589A8 /* BellbirdTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 273533481FACCDB8006589A8 /* BellbirdTests.m */; };
 		273533541FACCDB8006589A8 /* BellbirdUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 273533531FACCDB8006589A8 /* BellbirdUITests.m */; };
+		273533631FACCEF7006589A8 /* ApiEndpoint.m in Sources */ = {isa = PBXBuildFile; fileRef = 273533621FACCEF7006589A8 /* ApiEndpoint.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		2735334F1FACCDB8006589A8 /* BellbirdUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BellbirdUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		273533531FACCDB8006589A8 /* BellbirdUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BellbirdUITests.m; sourceTree = "<group>"; };
 		273533551FACCDB8006589A8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		273533611FACCEF7006589A8 /* ApiEndpoint.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ApiEndpoint.h; sourceTree = "<group>"; };
+		273533621FACCEF7006589A8 /* ApiEndpoint.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ApiEndpoint.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,6 +113,8 @@
 				2735333A1FACCDB7006589A8 /* LaunchScreen.storyboard */,
 				2735333D1FACCDB7006589A8 /* Info.plist */,
 				2735333E1FACCDB7006589A8 /* main.m */,
+				273533611FACCEF7006589A8 /* ApiEndpoint.h */,
+				273533621FACCEF7006589A8 /* ApiEndpoint.m */,
 			);
 			path = Bellbird;
 			sourceTree = "<group>";
@@ -268,6 +273,7 @@
 				273533341FACCDB7006589A8 /* ViewController.m in Sources */,
 				2735333F1FACCDB7006589A8 /* main.m in Sources */,
 				273533311FACCDB7006589A8 /* AppDelegate.m in Sources */,
+				273533631FACCEF7006589A8 /* ApiEndpoint.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
